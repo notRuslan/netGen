@@ -107,3 +107,13 @@ And as always, thanks so much for your support and letting
 us do what we love!
 
 <3 Your friends at SymfonyCasts
+
+
+### Notes:
+php -r "echo ini_get('memory_limit').PHP_EOL;"
+
+COMPOSER_MEMORY_LIMIT=-1 composer.phar <...> /// COMPOSER_MEMORY_LIMIT=-1 composer require netgen/layouts-standard
+
+or
+
+php -d memory_limit=-1 composer.phar <...>
